@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./screens/Home";
-import About from "./screens/About";
-import Login from "./screens/Login";
+import Home from "./screens/Home/Home";
+import About from "./screens/About/About";
+import Login from "./screens/Login/Login";
 import "./styles/App.css";
-import NotFound from "./screens/NotFound";
+import NotFound from "./screens/NotFound/NotFound";
 
 function App() {
 	return (
