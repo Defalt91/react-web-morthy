@@ -36,3 +36,14 @@
 1. Open terminal on desire folder to download project.
 2. Run `git clone https://github.com/Defalt91/react-web-morthy.git`
 3. Run `npm install` after download finish to install dependencies.
+
+## To Do List
+
+[ ] Create page design on Figma
+[ ] Create main components and screens
+[ ] Add custom hooks and api calls functionality
+[ ]
+[ ] Improve and detail web design
+[ ] Apply unit testing
+[ ] Add login and db login to app
+[ ] Build app and deploy to cloud server
