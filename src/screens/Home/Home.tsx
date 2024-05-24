@@ -1,10 +1,13 @@
 import { FC } from "react";
+import NavBar from "../../components/NavBar/NavBar";
 
 const Home: FC = () => {
 	return (
 		<>
-			<h1>Home Page</h1>
-			<h3>Hola mi amor como estas....</h3>
+			<NavBar />
+			<section className="main-section">
+				<h2>Home content</h2>
+			</section>
 		</>
 	);
 };
