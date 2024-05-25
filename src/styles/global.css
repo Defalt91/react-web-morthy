@@ -1,23 +1,25 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 #root {
 	display: flex;
 	flex-direction: column;
-	align-items: stretch;
-	height: 100vh;
+	/* align-content: space-between; */
+	min-height: 100vh;
 }
 
 :root {
-	font-family: Helvetica, Inter, system-ui, Avenir, Arial, sans-serif;
+	font-family: Montserrat, Roboto, Inter, Open-sans, Helvetica, system-ui, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
+	font-size: 1.1rem;
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
+	background-color: #333333;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -26,39 +28,14 @@
 }
 
 body {
-	/* display: flex; */
-	min-width: 320px;
-	min-height: 100vh;
+	min-width: 20em;
 }
-
-/* .main-container {
-	display: flex;
-	flex-direction: column;
-} */
-
-.nav-menu {
-	flex-grow: 0;
-	background-color: #535bf2;
-	display: flex;
-	justify-content: space-between;
-	margin: 18px;
-	padding: 10px;
-}
-
-.nav-tab {
-	display: flex;
-	flex-direction: row;
-}
-
-.nav-item {
-	padding: 0 50px;
-}
-
 .main-section {
 	flex-grow: 1;
-	background-color: #535bf2;
-	margin: 18px;
-	padding: 10px;
+	background-color: #44318d;
+	margin: 1.1em;
+	padding: 1em;
+	border-radius: 12px;
 }
 
 ul {
@@ -66,9 +43,9 @@ ul {
 }
 
 a {
-	font-weight: 500;
-	color: #f9f9f9;
 	text-decoration: none;
+	font-weight: 700;
+	color: #f9f9f9;
 }
 a:hover {
 	color: #f9f9f9a4;
@@ -82,7 +59,7 @@ button {
 	border-radius: 8px;
 	border: 1px solid transparent;
 	padding: 0.6em 1.2em;
-	font-size: 1em;
+	font-size: 1rem;
 	font-weight: 500;
 	font-family: inherit;
 	background-color: #1a1a1a;
@@ -99,7 +76,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
 	:root {
-		color: #213547;
+		color: red;
 		background-color: #ffffff;
 	}
 	a:hover {

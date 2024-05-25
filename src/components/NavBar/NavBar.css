@@ -1,0 +1,31 @@
+.nav-menu {
+	flex-grow: 0;
+	background-color: #44318d;
+	display: flex;
+	justify-content: space-between;
+	margin: 1em;
+	padding: 0.4em 1em;
+	border-radius: 12px;
+}
+
+.nav-tab {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.left {
+	flex-shrink: 2;
+}
+.right {
+	flex-shrink: 1;
+}
+
+.nav-item {
+	padding: 1.5em 1em;
+}
+.nav-item:hover {
+	background-color: #302268;
+}
