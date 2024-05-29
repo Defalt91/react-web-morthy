@@ -2,9 +2,12 @@ import { FC } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import "./NavBar.css";
+import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar: FC = () => {
 	const { pathname } = useLocation();
+
 	return (
 		<nav className="nav-menu">
 			<ul className="nav-tab left">
@@ -41,7 +44,7 @@ const NavBar: FC = () => {
 						Login
 					</Link>
 				</li>
-				<span>hey</span>
+				<FontAwesomeIcon icon={faUserCircle} className="user-icon" />
 			</ul>
 		</nav>
 	);

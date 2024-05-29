@@ -3,7 +3,8 @@
 	background-color: #44318d;
 	display: flex;
 	justify-content: space-between;
-	margin: 1em;
+	flex-wrap: wrap;
+	margin: 1em 10em;
 	padding: 0.4em 1em;
 	border-radius: 12px;
 }
@@ -28,4 +29,9 @@
 }
 .nav-item:hover {
 	background-color: #302268;
+}
+
+.user-icon {
+	font-size: 2em;
+	cursor: pointer;
 }
