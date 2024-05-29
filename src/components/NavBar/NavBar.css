@@ -25,10 +25,11 @@
 }
 
 .nav-item {
-	padding: 1.5em 1em;
+	padding: 1.3em 1em 1.1em 1em;
 }
 .nav-item:hover {
 	background-color: #302268;
+	border-bottom: 4px solid #302268;
 }
 
 .user-icon {

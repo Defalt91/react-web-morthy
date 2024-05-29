@@ -16,8 +16,13 @@ const PhotoCard: FC<IProps> = (props) => {
 			</div>
 			<div className="card-info">
 				<div className="label-group">
-					<label>{character.name}</label>
-					<label>{`${character.status} - ${character.species}`}</label>
+					<label className="card-title">{character.name}</label>
+					<label>
+						<span
+							className={`dot ${character.status === "Alive" ? "alive" : character.status === "Dead" ? "dead" : "uknown"}`}
+						></span>{" "}
+						{`${character.status} - ${character.species}`}
+					</label>
 				</div>
 				<div className="label-group">
 					<label>Last Known Location:</label>

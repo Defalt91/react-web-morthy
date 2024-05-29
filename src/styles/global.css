@@ -54,7 +54,8 @@ a:hover {
 	color: #f9f9f9a4;
 }
 .active {
-	text-decoration: underline;
+	/* text-decoration: underline; */
+	border-bottom: 3px solid #fff;
 }
 
 button {
