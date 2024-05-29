@@ -1,11 +1,13 @@
 import { FC } from "react";
 import "./PhotoContainer.css";
-import useRandomData from "../../customHooks/useRandomData";
 import PhotoCard from "../PhotoCard/PhotoCard";
+import { ICharacter } from "../../interface";
 
-const PhotoContainer: FC = () => {
-	const { characters } = useRandomData("character");
+interface IProps {
+	characters: ICharacter[] | null;
+}
 
+const PhotoContainer: FC<IProps> = ({ characters }) => {
 	return (
 		<div className="card-container">
 			{characters && characters.length > 0 ? (
