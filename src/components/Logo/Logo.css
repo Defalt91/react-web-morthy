@@ -1,6 +1,8 @@
 .small-logo {
-	height: 3.4em;
+	height: 3em;
+	padding-right: 1em;
 }
+
 .small-logo:hover {
 	cursor: pointer;
 }
